@@ -4,6 +4,7 @@
 - git clone <url> : 코드가져오기 ( git clone https://github.com/MinjiJo/TIL/new/master )
 - git checkout <branch_name> : 브랜치 선택하기
 - git checkout -t <remote_path/branch_name> : 원격 브랜치 선택하기
+- git checkout -b <remote_path/branch_name> : 새로운 브랜치 만들면서 이동
 - git branch <branch_name> : 브랜치 생성하기
 - git branch -r : 원격 브랜치 목록보기
 - git branch -a : 로컬 브랜치 목록보기
@@ -12,6 +13,7 @@
 - git push <remote_name> — delete <branch_name> : 원격 브랜치 삭제하기 ( git push origin — delete gh-pages )
 - git add <file_path> : 수정한 코드 선택하기 ( git add * )
 - git commit -m "<commit_description>" : 선택한 코드 설명 적기 ( git commit -m “Edit gitCommand.md”)
+- git commit -a -m "your commit message here" : git add와 commit을 동시에 하기
 - git push <romote_name> <branch_name> : add하고 commit한 코드 git server에 보내기 (git push origin master)
 - git pull : git서버에서 최신 코드 받아와 merge 하기
 - git fetch : git서버에서 최신 코드 받아오기
