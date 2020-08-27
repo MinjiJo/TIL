@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 ## Eclipse 단축키
-- ALT+SHIFT+J : 메서드 주석 추가 -> 아래와 같은 양식으로 추가됨
+- ALT + SHIFT + J : 메서드 주석 추가 -> 아래와 같은 양식으로 추가됨
 
 ```java
 /**
@@ -13,4 +13,5 @@
 
 ```
 
-- CTRL+ALT+R : 서버 리스타트
+- CTRL + ALT + R : 서버 리스타트
+- SHIFT + ALT + A : 원하는 영역을 선택해서 한 번에 수정하도록 할 수 있음
