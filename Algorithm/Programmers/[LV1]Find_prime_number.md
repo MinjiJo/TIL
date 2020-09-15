@@ -50,7 +50,7 @@ class Solution {
 10. 위의 과정을 반복하면 구하는 구간의 모든 소수가 남는다.
 
 
-그리고 이를 반ㅂ
+그리고 이를 자바로 만들어놓은 코드를 찾으니 아래와 같았다.
 
 ```java
 public class Eratos {
@@ -95,5 +95,33 @@ public class Eratos {
 		System.out.println(sb.toString());
 
 	}
+}
+```
+
+
+나는 아래 방식으로 풀었다.
+```java
+class Solution {
+  public int solution(int n) {
+      int answer = 0;
+      boolean[] sosu =new boolean [n+1];
+
+      for(int i=2; i<=n ; i++)
+          sosu[i]=true;
+       //에라테네스   
+      int root=(int)Math.sqrt(n);
+
+     for(int i=2; i<=root; i++){
+         if(sosu[i]==true){
+             for(int j=i; i*j<=n; j++)
+                    sosu[i*j]=false;
+         }      
+     }
+      for(int i =2; i<=n; i++)  { 
+          if(sosu[i]==true)
+          answer++;
+      }
+      return answer;
+  }
 }
 ```
