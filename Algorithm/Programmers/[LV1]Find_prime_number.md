@@ -114,7 +114,7 @@ class Solution {
      for(int i=2; i<=root; i++){
          if(sosu[i]==true){
              for(int j=i; i*j<=n; j++)
-                    sosu[i*j]=false;
+                sosu[i*j]=false;
          }      
      }
       for(int i =2; i<=n; i++)  { 
