@@ -52,3 +52,14 @@ class Solution {
     }
 }
 ```
+
+
+와 이게 한줄로 되네 싶었던 코드
+
+```java
+public int reverseInt(int n){
+    res = "";
+    Integer.toString(n).chars().sorted().forEach(c -> res = Character.valueOf((char)c) + res);
+    return Integer.parseInt(res);
+}
+```
