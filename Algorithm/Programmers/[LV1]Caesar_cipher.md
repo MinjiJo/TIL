@@ -17,7 +17,7 @@
 
 >> **Character.isLowerCase(char ch) -> ch가 영문 소문자인지 여부를 판단하여 true, false를 반환**<br>
 
-또한 공백은 유지가 되어야 하기 때문에 공백인 경우를 제외하고 밀어준다.<>
+또한 공백은 유지가 되어야 하기 때문에 공백인 경우를 제외하고 밀어준다.<br>
 
 ```java
 class Solution {
