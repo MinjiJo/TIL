@@ -36,7 +36,7 @@ class Solution
         
         for(int i = 0; i < A.length; i++){
             answer += A[i] * B[j];    
-            System.out.println(answer);
+            //System.out.println(answer); -- 이렇게 다 찍으면 효율성에서 실패됨! 주석하고 하면 통과함..
             j--;
         }
 
