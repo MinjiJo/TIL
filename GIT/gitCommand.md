@@ -26,3 +26,6 @@
 - git stash / git stash save “<description>” : 작업코드 임시저장하고 브랜치 바꾸기
 - git stash pop : 마지막으로 임시저장한 작업코드 가져오기
 - git branch —-set-upstream-to <remote_path>/<branch_name> : branch 연동
+
+
+#### 일단 무조건! git 올리려고 하는 폴더 위치는 꼭 확인할 것!
