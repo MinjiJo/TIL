@@ -28,4 +28,4 @@
 - git branch —-set-upstream-to <remote_path>/<branch_name> : branch 연동
 
 
-#### 일단 무조건! git 올리려고 하는 폴더 위치는 꼭 확인할 것!
+### 일단 무조건! git 올리려고 하는 폴더 위치는 꼭 확인할 것!
