@@ -1,0 +1,118 @@
+.m_main_select{
+    background:#336699;
+    color:#ffffff;
+    border:none;
+    position:relative;
+    width: 100px;
+    height:40px;
+    font-size:16px;
+    cursor:pointer;
+    transition:500ms ease all;
+    outline:none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-left: 10px;
+}
+.m_main_select:hover{
+    color:#6699CC;
+}
+.search{
+    position: relative;
+    left: 60px;
+}
+.fixContainer{
+    width: 90%;
+    height: 300px;
+    border: 2px solid gray;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+    overflow: auto;
+}
+.resultContainer{
+    width: 90%;
+    margin: 10px;
+    left: 50px;
+    height: 100%;
+    position: relative;
+    top: 60px;
+    bottom: 50px;
+}
+td {padding: 5px;}
+table.typeDesign {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+}
+table.typeDesign thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    background: #0D428C;
+    color: #ffffff;
+    border: 1px solid #B5CDDF;
+    text-align: center;
+}
+table.typeDesign tbody th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border: 1px solid #B5CDDF;
+    background: #f3f6f7;
+    text-align: center;
+}
+table.typeDesign td {
+    padding: 10px;
+    vertical-align: middle;
+    border: 1px solid #B5CDDF;
+    text-align: center;
+    font-size: 16px;
+}
+.clickButton{
+    background:#336699;
+    color:#ffffff;
+    border:none;
+    position:relative;
+    height:40px;
+    width: 60%;
+    font-size:16px;
+    cursor:pointer;
+    transition:500ms ease all;
+    outline:none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.clickButton:hover{
+    color:#6699CC;
+}
+table.resultDesign {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    width: 100%;
+}
+table.resultDesign thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #369;
+    border-bottom: 3px solid #036;
+    text-align: center;
+}
+table.resultDesign tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+    text-align: center;
+}
+table.resultDesign td {
+    width: 150px;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
