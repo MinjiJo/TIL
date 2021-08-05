@@ -1,3 +1,6 @@
+#search_typing{
+	height: 30px;
+}
 .m_main_select{
     background:#336699;
     color:#ffffff;
@@ -22,7 +25,7 @@
 }
 .fixContainer{
     width: 90%;
-    height: 300px;
+    height: 250px;
     border: 2px solid gray;
     margin: 10px;
     position: relative;
@@ -33,7 +36,6 @@
     width: 90%;
     margin: 10px;
     left: 50px;
-    height: 100%;
     position: relative;
     top: 60px;
     bottom: 50px;
@@ -67,16 +69,16 @@ table.typeDesign td {
     vertical-align: middle;
     border: 1px solid #B5CDDF;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 }
 .clickButton{
     background:#336699;
     color:#ffffff;
     border:none;
     position:relative;
-    height:40px;
+    height:20px;
     width: 60%;
-    font-size:16px;
+    font-size:14px;
     cursor:pointer;
     transition:500ms ease all;
     outline:none;
