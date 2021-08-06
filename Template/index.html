@@ -14,115 +14,100 @@
 
 <body>
     <div class="main">
-        <div class="mainTop">
-            <div class="search">
-                모듈명 &nbsp <input type="text" id="search_typing" size="30" />
-                <button id="search_button" class="m_main_select" onclick="search()">검색</button>
-            </div>
-            <br />
-            <br />
-            <div class="fixContainer">
-                <table class="typeDesign">
-                    <thead>
-                        <tr>
-                            <th>파일명</th>
-                            <th>버전</th>
-                            <th>수정내역</th>
-                            <th>선택</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>a.dll</td>
-                            <td>1.2.3.44</td>
-                            <td>오류 내역 수정</td>
-                            <td><button class="clickButton" onclick="">추가</button></td>
-                        </tr>
-                        <tr>
-                            <td>a.dll</td>
-                            <td>1.2.3.43</td>
-                            <td>오류 내역 수정</td>
-                            <td><button class="clickButton" onclick="">추가</button></td>
-                        </tr>
-                        <tr>
-                            <td>a.dll</td>
-                            <td>1.2.3.42</td>
-                            <td>오류 내역 수정</td>
-                            <td><button class="clickButton" onclick="">추가</button></td>
-                        </tr>
-                        <tr>
-                            <td>a.dll</td>
-                            <td>1.2.3.41</td>
-                            <td>오류 내역 수정</td>
-                            <td><button class="clickButton" onclick="">추가</button></td>
-                        </tr>
-                        <tr>
-                            <td>a.dll</td>
-                            <td>1.2.3.40</td>
-                            <td>오류 내역 수정</td>
-                            <td><button class="clickButton" onclick="">추가</button></td>
-                        </tr>
-                        <tr>
-                            <td>a.dll</td>
-                            <td>1.2.3.39</td>
-                            <td>오류 내역 수정</td>
-                            <td><button class="clickButton" onclick="">추가</button></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="resultContainer">
-            <table class="resultDesign">
-                <thead>
-                    <tr>
-                        <th>파일명</th>
-                        <th>버전</th>
-                        <th>수정내역</th>
-                        <th>선택</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>a.dll</td>
-                        <td>1.2.3.44</td>
-                        <td>오류 내역 수정</td>
-                        <td><button class="clickButton" onclick="">추가</button></td>
-                    </tr>
-                    <tr>
-                        <td>a.dll</td>
-                        <td>1.2.3.43</td>
-                        <td>오류 내역 수정</td>
-                        <td><button class="clickButton" onclick="">추가</button></td>
-                    </tr>
-                    <tr>
-                        <td>a.dll</td>
-                        <td>1.2.3.42</td>
-                        <td>오류 내역 수정</td>
-                        <td><button class="clickButton" onclick="">추가</button></td>
-                    </tr>
-                    <tr>
-                        <td>a.dll</td>
-                        <td>1.2.3.41</td>
-                        <td>오류 내역 수정</td>
-                        <td><button class="clickButton" onclick="">추가</button></td>
-                    </tr>
-                    <tr>
-                        <td>a.dll</td>
-                        <td>1.2.3.40</td>
-                        <td>오류 내역 수정</td>
-                        <td><button class="clickButton" onclick="">추가</button></td>
-                    </tr>
-                    <tr>
-                        <td>a.dll</td>
-                        <td>1.2.3.39</td>
-                        <td>오류 내역 수정</td>
-                        <td><button class="clickButton" onclick="">추가</button></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
+	<div class="mainTop">
+		<div class="search">
+			<span style='font-size:16px;font-weight:bold;'>모듈명</span> &nbsp <input type="text" onkeyup="enterkey();" id="search_typing" size="30" />
+			<button id="search_button" class="m_main_select" onclick="search();">검색</button>
+		</div>
+		<br />
+		<br />
+		<div class="fixContainer" id="fixContainer">
+			<table class="typeDesign" id="searchTable">
+				<thead>
+					<tr>
+						<th>파일명</th>
+						<th>버전</th>
+						<th>수정내역</th>
+						<th>선택</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.44</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.43</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.42</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.41</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.40</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.39</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.38</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+					<tr>
+						<td>a.dll</td>
+						<td>1.2.3.37</td>
+						<td>오류 내역 수정</td>
+						<td><button class="clickButton" onclick="addFile();">추가</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="resultContainer" id="resultContainer">
+		<table class="resultDesign" id="resultTable">
+			<thead>
+				<tr>
+					<th rowspan='2'>삭제</th>
+					<th rowspan='2'>파일명</th>
+					<th rowspan='2'>버전</th>
+					<th rowspan='2'>수정내역</th>
+					<th rowspan='2'>이슈번호</th>
+					<th rowspan='2'>종속모듈</th>
+					<th rowspan='2'>종속버전</th>
+					<th colspan='2'>임시패치</th>
+				</tr>
+				<tr>
+					<th>필요</th>
+					<th>완료</th>
+				</tr>
+			</thead>
+			<tbody>
+                
+			</tbody>
+		</table>
+	</div>
+</div>
 </body>
 
 </html>
