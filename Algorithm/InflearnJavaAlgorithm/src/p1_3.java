@@ -1,6 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
+public class p1_3 {
     public String solution(String str){
         String answer="";
 
@@ -33,7 +33,7 @@ public class Main {
         return answer;
     }
     public static void main(String[] args){
-        Main T = new Main();
+        p1_3 T = new p1_3();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         System.out.print(T.solution(str));
