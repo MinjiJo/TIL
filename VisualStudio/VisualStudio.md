@@ -2,4 +2,4 @@
 - ctrl+k+u : 주석 해제
 - ctrl+k+d : 자동 줄 정렬 / 줄 맞춤
 - ctrl+k : 자동 완성
-- ctrl_shift_B : 전체 프로젝트 빌드
+- ctrl+shift+B : 전체 프로젝트 빌드
