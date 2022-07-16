@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p1_4 {
     public ArrayList<String> solution(int n, String[] str){
         ArrayList<String> answer = new ArrayList<>();
         for(String x : str) {
@@ -27,7 +27,7 @@ public class Main {
         return answer;
     }
     public static void main(String[] args){
-        Main T = new Main();
+        p1_4 T = new p1_4();
         Scanner kb = new Scanner(System.in);
         int n=kb.nextInt();
         String[] str = new String[n];

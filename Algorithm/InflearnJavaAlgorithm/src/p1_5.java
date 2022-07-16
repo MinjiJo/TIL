@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p1_5 {
     public String solution(String str){
         String answer;
         char[] s=str.toCharArray();
@@ -23,7 +23,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p1_5 T = new p1_5();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));        
