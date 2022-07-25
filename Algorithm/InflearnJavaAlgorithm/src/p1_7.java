@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p1_7 {
     public String solution(String str){
         //방법2. StringBuilder 와 reverse & equalsIgnoreCases 사용
         String answer="NO";
@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p1_7 T = new p1_7();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));        
