@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p1_10 {
     public int[] solution(String s, char t){
         int[] answer=new int[s.length()];
         int p=1000;
@@ -27,7 +27,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p1_10 T = new p1_10();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);
