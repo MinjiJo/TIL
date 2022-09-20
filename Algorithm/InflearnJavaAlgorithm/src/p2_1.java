@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p2_1 {
     public ArrayList<Integer> solution(int n, int[] arr){
         
         ArrayList<Integer> answer = new ArrayList<>();
@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p2_1 T = new p2_1();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];

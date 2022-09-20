@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p2_2 {
     public int solution(int n, int[] arr){
         int answer=1, max=arr[0];
         for(int i=1; i<n; i++){
@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p2_2 T = new p2_2();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
