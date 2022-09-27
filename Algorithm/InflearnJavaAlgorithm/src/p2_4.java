@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p2_4 {
     public int[] solution(int n){
         /* int[] 로 푸는 방법 
         int[] answer=new int[n];
@@ -22,7 +22,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p2_4 T = new p2_4();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         for(int x : T.solution(n)) System.out.println(x+" ");
