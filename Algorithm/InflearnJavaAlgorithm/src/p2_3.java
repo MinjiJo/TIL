@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p2_3 {
     public String solution(int n, int[] a, int[] b){
         String answer="";
         
@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p2_3 T = new p2_3();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] a = new int[n];
