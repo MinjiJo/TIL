@@ -33,7 +33,7 @@ public class p2_4 {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p2_4 T = new p2_4();
         Scanner kb = new Scanner(System.in);
         int n=kb.nextInt();
         T.solution(n);
