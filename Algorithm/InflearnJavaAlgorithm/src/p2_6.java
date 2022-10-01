@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p2_6 {
     
     public boolean isPrime(int num){//소수인지 확인하는 것
         if(num==1) return false;
@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p2_6 T = new p2_6();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
