@@ -17,4 +17,3 @@ public class p1_8 {
         System.out.println(T.solution(str));        
     }
 }
-`

@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Main {
+public class p2_7 {
+
     /*내 풀이 -- 풀이 방법은 맞지만 단계를 하나 더 쓴 느낌임
     public Integer solution(int n, int[] arr){
         int answer = 0;
@@ -36,7 +37,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p2_7 T = new p2_7();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
