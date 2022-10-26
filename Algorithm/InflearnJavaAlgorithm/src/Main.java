@@ -1,16 +1,16 @@
 import java.util.*;
 
 public class Main {
-    public int[] solution(int n, int[] arr){
-        int[] answer = new int[n];
+    public int solution(int n, int[][] arr){
+        int answer = Integer.MIN_VALUE;
+        int sum1, sum2;
         for(int i=0; i<n; i++){
-            int cnt=1;
+            sum1=sum2=0;
             for(int j=0; j<n; j++){
-                if(arr[j]>arr[i]) cnt++;
+                sum1+=arr[i][j];
             }
-            answer[i]=cnt;
         }
-        
+
         return answer;
     }
 
@@ -18,12 +18,12 @@ public class Main {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
-        int[] arr = new int[n];
+        int[][] arr = new int[n][n];
         for(int i=0; i<n; i++){
-            arr[i]=kb.nextInt();
+            for(int j=0; j<n; j++){
+                arr[i][j]=kb.nextInt();
+            }
         }
-        for(int x : T.solution(n, arr)){
-            System.out.print(x+" ");
-        }
+        System.out.print(T.solution(n, arr));
     }
 }
