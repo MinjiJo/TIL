@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p3_1 {
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b){
         // 투 포인트를 잡아서 할 수 있는지 보는 문제! 아래처럼 푸는 것이 좋음~!
         ArrayList<Integer> answer = new ArrayList<>();
@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p3_1 T = new p3_1();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr1 = new int[n];
