@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p3_2 {
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b){
         /* 내 플이는 타임아웃이 나와버림 
         ArrayList<Integer> answer = new ArrayList<>();
@@ -34,7 +34,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p3_2 T = new p3_2();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] a = new int[n];
