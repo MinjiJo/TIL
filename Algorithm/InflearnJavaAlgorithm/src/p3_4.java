@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class p3_4 {
     public int solution(int n, int m, int[] arr){
         //for문 안에 for문을 돌려서 찾으면 시간복잡도 너무 늘어남!!
         //lt, rt 구간을 만들어서 찾는 방식으로 가야 함
@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        p3_4 T = new p3_4();
         Scanner kb = new Scanner(System.in);
         int n=kb.nextInt();
         int m=kb.nextInt();
