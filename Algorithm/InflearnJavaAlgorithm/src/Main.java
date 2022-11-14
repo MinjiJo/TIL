@@ -1,16 +1,22 @@
 import java.util.*;
 
 public class Main {
-    public int solution(int n, int m, int[] arr){
-        //for문 안에 for문을 돌려서 찾으면 시간복잡도 너무 늘어남!!
+    public int solution(int n){
+        //two point algorithm
         //lt, rt 구간을 만들어서 찾는 방식으로 가야 함
         int answer=0, sum=0, lt=0;
-        for(int rt=0; rt<n; rt++){
+        int m = (n/2)+1;
+        int[] arr = new int[m];
+        for(int i=0; i<m; i++){
+            arr[i] = i+1;
+        }
+
+        for(int rt=0; rt<m; rt++){
             sum+=arr[rt];
-            if(sum==m) answer++;
-            while(sum>=m){
+            if(sum==n) answer++;
+            while(sum>=n){
                 sum-=arr[lt++];
-                if(sum==m) answer++;
+                if(sum==n) answer++;
             }
         }
 
@@ -20,13 +26,7 @@ public class Main {
     public static void main(String[] args){
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        int n=kb.nextInt();
-        int m=kb.nextInt();
-        int[] arr=new int[n];
-        for(int i=0; i<n; i++){
-            arr[i]=kb.nextInt();
-        }
-        
-        System.out.print(T.solution(n, m, arr));
+        int n=kb.nextInt();        
+        System.out.print(T.solution(n));
     }
 }
