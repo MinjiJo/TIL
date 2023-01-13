@@ -1,6 +1,6 @@
 # IT 5분 잡학사전
 
-###### Day1
+## Day1
 
 #### TIL(Today I Learned)
 
